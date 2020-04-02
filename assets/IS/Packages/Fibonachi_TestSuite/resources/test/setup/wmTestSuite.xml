@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="Fibonachi_TestSuite">
+    <webMethodsTestCase name="FibonachiTestCase1">
+        <service folder="Fibonachi.services" name="getFibunachiNumber">
+            <input>
+                <file filename="resources/test/data/Fibonachi_TestCase1Input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/Fibonachi_TestCase1ExpectedOutput.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
